@@ -29,7 +29,7 @@ function Counter() {
               </div>
               <div className='mt-5 d-flex justify-content-center'>
                   <input onChange={(e)=>setAmount(e.target.value)} type="text" className='form-control w-50' placeholder='Enter the Value'/>
-                  <button onClick={handleincrementByAmount} className='btn btn-primary ms-3'>Increment By Account</button>
+                  <button onClick={handleincrementByAmount} className='btn btn-primary ms-3'>Increment By Amount</button>
               </div>
                 
             </div>
